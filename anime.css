@@ -1,0 +1,30 @@
+
+body {
+    background-color:darkred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    
+}
+
+
+.header {
+   
+    text-align: center;
+    
+}
+
+img {
+    transform: skew(20deg, 10deg); 
+    transition: transform 0.3s ease; 
+}
+
+img:hover {
+    transform: skew(10deg, 5deg); 
+}
+
+
+
